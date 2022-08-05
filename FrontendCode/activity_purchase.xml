@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@drawable/bg4"
+    tools:context=".activity.PurchaseActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter booking date"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"
+        android:id="@+id/date"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter pass type"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/passtype"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter total amount"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:id="@+id/totalamount"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter card name"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cardname"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter card number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:id="@+id/cardnumber"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter card cvv"
+        android:textColorHint="@color/black"
+        android:inputType="textPassword"
+        android:maxEms="3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cardcvv"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter card expiry"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cardexpiry"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm"
+        android:text="CONFIRM"></Button>
+
+</LinearLayout>

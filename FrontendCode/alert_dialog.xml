@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER BOOKING DATE"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="30dp"
+        android:id="@+id/date"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER TOTAL AMOUNT"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:id="@+id/totalamount"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER CARD NAME"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cardname"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER CARD NUMBER"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:id="@+id/cardnumber"></EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER CARD CVV"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:inputType="number"
+        android:maxEms="3"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cardcvv"></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER CARD EXPIRY"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:id="@+id/cardexpiry"></EditText>
+
+
+</LinearLayout>
